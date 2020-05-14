@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Login</title>
+	 <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+   <div class="login-page">
+   	<div class="form">
+   		<form class="register-form" action="registration.php" method="post">
+   	     <input type="text" name="fname" placeholder="First Name"/>
+   	     <input type="text" name="lname" placeholder="Last Name"/>
+   	     <input type="tel" name="phone" placeholder="Phone Number"/>
+         <input type="password" name="pass" placeholder="Password"/>
+         <input type="text" name="email" placeholder="Email address"/>
+         <label>User Type</label>
+	       <select name="usertype">
+	       	<option>Client</option>
+		    <option>Admin</option>
+			<option>Delivery-Person</option>
+			</select>
+	     <button type= "submit" class="btn btn-primary" name="create">create </button>
+         <p class="message">Already registered? <a href="login.html">Sign In</a></p>
+     </form>
+</body>
+</html>
